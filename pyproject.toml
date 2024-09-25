@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "api-webscraping"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.0"
+pydantic = "^2.9.2"
+numpy = "^2.1.1"
+pandas = "^2.2.3"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
